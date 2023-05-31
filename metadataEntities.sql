@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS [dbo].[metadataEntities];
 CREATE TABLE [dbo].[metadataEntities](
 	[id] [int] IDENTITY(1,1) NOT NULL,
 	[metadataControlId] [int] NULL,
